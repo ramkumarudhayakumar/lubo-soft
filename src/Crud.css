@@ -1,0 +1,112 @@
+.label {
+  font-weight: bold;
+  font-size: 20px;
+  word-spacing: 3px;
+  margin-bottom: 20px;
+}
+.crud-container {
+  display: grid;
+  place-content: center;
+  margin-top: 100px;
+  color: black;
+}
+.crud-container form {
+  width: 500px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+
+  padding: 15px;
+  border-radius: 10px;
+}
+.input::placeholder {
+  color: red;
+}
+.crud-heading {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.crud-heading h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.form-input-group {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-weight: 500;
+}
+.form-input-group-subbutton-div {
+  display: flex;
+  gap: 5px;
+}
+.form-input-group-button {
+  border: none;
+  background-color: transparent;
+  margin-bottom: 5px;
+}
+.form-button1 {
+  color: green;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  font-size: 25px;
+}
+
+.form-button3 {
+  color: red;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  font-size: 30px;
+}
+.crud-table {
+  margin-top: 20px;
+}
+.crud-table thead {
+  font-weight: bold;
+}
+.crud-table tbody {
+  font-weight: 500;
+}
+.table-data-button-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.table-button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+.table-button1 {
+  color: green;
+}
+.table-button2 {
+  color: red;
+}
+.table-button3 {
+  color: blue;
+}
+
+@media screen and (max-width: 576px) {
+  .crud-container form {
+    width: 300px;
+  }
+  .table-button {
+    font-size: 13px;
+  }
+  .label {
+    font-size: 18px;
+    word-spacing: 2px;
+  }
+  .form-button1 {
+    font-size: 20px;
+  }
+  .form-button2 {
+    font-size: 25px;
+  }
+  .form-button3 {
+    font-size: 25px;
+  }
+}
