@@ -96,8 +96,6 @@ export default function Crud() {
     setShowPlaceholder("");
   }
 
-  function revert() {}
-
   return (
     <main>
       <div className="container crud-container">
