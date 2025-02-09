@@ -96,7 +96,7 @@ export default function Crud() {
     setShowPlaceholder("");
   }
 
-  function revert() {}
+  function resetCheck() {}
 
   return (
     <main>
