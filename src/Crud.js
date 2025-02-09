@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Crud.css";
 import { FaArrowLeft } from "react-icons/fa6";
 import { FaCirclePlus } from "react-icons/fa6";
@@ -50,6 +50,7 @@ export default function Crud() {
     setShowButton(false);
     setCat_name(name);
   }
+  ll;
   function updateDocumentHandler(id) {
     if (cat_name) {
       updateDocument(id, { cat_name });

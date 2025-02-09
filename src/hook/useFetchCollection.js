@@ -17,5 +17,5 @@ export const useFetchCollection = (fbcollection) => {
     });
     return () => unsub();
   }, [fbcollection]);
-  return { posts };
+  return () => response();
 };
